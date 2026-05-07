@@ -1,0 +1,12 @@
+# Release Input
+## Product
+My Kind of Chaos
+## Version
+1.0.0.10
+## What's New
+- Added widget support for the home screen to remind users it's there
+- Dark mode is now available
+
+## Fixes and Improvements
+- Allowed for alarm duplication with different tones
+- Improved voice note recording stability
