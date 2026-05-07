@@ -13,9 +13,9 @@ It is all three — and the system that connects them.
 
 **Scaffold** is a collection of files that, taken together, tell an AI:
 
-- What kind of document it is making
-- Who is supposed to read it
-- How that reader expects to experience the content
+- What kind of document will be made
+- Who (the audience) is supposed to read it
+- How the reader expects to experience the content
 - What words and phrases to use — and which to avoid
 - What the finished document should look like before a single word is written
 
@@ -29,7 +29,7 @@ AI editors and generators fail at technical documentation for one primary reason
 
 **They cannot see structure. They see text.**
 
-Paste a compatibility matrix into an AI, and it reads a wall of words. It does not know which words are column headers, which are product names, which are version numbers, and which are support status flags. It cannot distinguish between a numbered step and a bulleted list. It does not know that a Note is not the same as a Warning.
+Paste a published compatibility matrix into an AI, and it reads a wall of words. It does not know which words are column headers, which are product names, which are version numbers, and which are support status flags. It cannot distinguish between numbered steps and bulleted lists. It does not know that a Note is not the same as a Warning.
 
 This system solves that by giving AI a reading guide — a schema — that communicates structure, hierarchy, and intent before content is generated or edited.
 
@@ -50,7 +50,7 @@ The add-on inserted lightweight tags (`[br]` for line breaks, Markdown for empha
 
 The insight that followed: **the same problem exists in technical documentation.** A compatibility matrix has structure. A numbered procedure has structure. A release note has a structure. And AI flattens all of it the same way it flattened the memoir — unless it is told otherwise.
 
-Version 1 solved cadence for human writing.
+Version 1 of the Google Docs add-on solved cadence for human writing.
 This system solves the structure for technical documentation.
 
 ---
@@ -60,7 +60,7 @@ This system solves the structure for technical documentation.
 Before anything else, read these in order:
 
 1. **README.md** — this file. What the system is and why.
-2. **AUDIENCE_TIERS.md** — the five audience levels every document must be assigned to before generation begins.
+2. **voice/audience_tiers.md** — the five audience levels every document must be assigned to before generation begins.
 3. **HOW_NOT_TO_AI.md** — the voice constraints. What AI reaches for by default, and what to use instead. Modulated by audience tier.
 4. **schema/structural_tags.md** — the tag schema. What each tag means, how to use it, and what it tells the AI.
 5. **wireframes/** — the document templates. One file per document type.
@@ -98,7 +98,15 @@ Full definitions are in AUDIENCE_TIERS.md. Brief version:
 │
 ├── /voice
 │   └── voice_constraints.md          ← field-level voice rules
+│   └── audience_tiers.md             ← full tier definitions
 │
+├── /governance
+│   └── content_governance.md          ← rules for content generation
+│   └── governance.md                  ← other rules
+|
+├── /release_input
+│   └── ProductName_Version.md         ← template for content that is used for doc creation
+|
 ├── /wireframes
 │   ├── compatibility_matrix.md       ← template: compatibility matrix
 │   └── release_notes.md              ← template: release notes
@@ -162,7 +170,7 @@ That part does not change.
 | Component | Status |
 |-----------|--------|
 | README | ✅ First draft complete |
-| AUDIENCE_TIERS.md | 🔲 Stub needed |
+| AUDIENCE_TIERS.md | 🔲 moved, Stub needed |
 | HOW_NOT_TO_AI.md | 🔲 Stub needed |
 | schema/structural_tags.md | 🔲 Stub needed |
 | voice/voice_constraints.md | 🔲 Stub needed |
