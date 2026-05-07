@@ -2,7 +2,7 @@
 ## Product
 My Kind of Chaos
 ## Version
-1.0.0.10
+01.00.00.10
 ## What's New
 - Added widget support for the home screen to remind users it's there
 - Dark mode is now available
