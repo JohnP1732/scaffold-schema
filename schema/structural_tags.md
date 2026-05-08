@@ -77,6 +77,14 @@ Do not use for decoration.
 
 ---
 
+## [support-url] — Support Link
+Renders the Support URL and Support URL Display Text from the 
+product file as a single linked element.
+Format: [Support URL Display Text](https://support-url)
+Both fields must exist in the product file. If either is missing, ask.
+
+---
+
 ## General Rules
 
 - Tags are instructions to the AI, not to a browser.
