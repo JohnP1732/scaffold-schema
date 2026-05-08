@@ -13,3 +13,6 @@ Version numbers always follow the padding standard. (Leading Zeros for all numbe
 Release date validation: Compare the Release Date in the release input file against the Release Date in the product file. If the release input date is newer, flag the discrepancy and stop. 
 Do not generate the document until the user confirms the product file has been updated manually. Wait for explicit confirmation before proceeding.
 
+OS Support Policy: Unless otherwise specified, supported OS versions default to the current release and two versions back for consumer apps, three versions back for enterprise tools.
+Confirm with the product owner before documenting.
+
