@@ -4,7 +4,9 @@ My Kind of Chaos
 ## Version  
 01.00.00.10  
 ## Release Date  
-May 2026  
+May 8, 2026  
+## Release Date Format  
+Month and year only  
 ## What's New
 - Added widget support for the home screen to remind users it's there
 - Dark mode is now available
