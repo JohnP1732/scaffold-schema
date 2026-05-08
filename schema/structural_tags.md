@@ -93,6 +93,19 @@ If the URL is missing from the product file, ask before proceeding.
   
 ---
 
+## [release-date] — Release Date
+The date this version was released to the app stores.
+Pulled from the Release Date field in the release input file.
+Required field. If it is missing from the release input file, please ask before proceeding.
+
+Validation rule: Compare against the Release Date in the product file.
+If the release input date is newer than the product file date, stop.
+Flag the discrepancy to the user and wait for confirmation that
+the product file has been updated before proceeding.
+Do not generate the document until explicit confirmation is received.
+
+---
+
 ## General Rules
 
 - Tags are instructions to the AI, not to a browser.
