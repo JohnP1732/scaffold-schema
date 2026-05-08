@@ -83,16 +83,23 @@ product file as a single linked element.
 Format: [Support URL Display Text](https://support-url)
 Both fields must exist in the product file. If either is missing, ask.
 
----
-
 ## [release-url] — Release Notes Archive Link
 Renders the Product Release URL and Product Release URL Display 
 Text from the product file as a single linked element.
 Format: [Product Release URL Display Text](https://release-url)
 Both fields must exist in the product file. If either is missing, ask.
 
----
+## [store-link-google] — Google Play Store URL
+Replaced with the Google Play URL from the product file.
+Format: [Google Play Store](https://full-url-from-product-file)
+If the URL is missing from the product file, ask before proceeding.
 
+## [store-link-apple] — Apple App Store URL
+Replaced with the Apple App Store URL from the product file.
+Format: [Apple App Store](https://full-url-from-product-file)
+If the URL is missing from the product file, ask before proceeding.
+
+---
 
 ## General Rules
 
