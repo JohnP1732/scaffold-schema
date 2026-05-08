@@ -49,20 +49,6 @@ with only the bracketed fields filled in.
 
 ---
 
-## [store-link-google] — Google Play Store URL
-Replaced with the Google Play URL from the product file.
-Renders as the full URL or as "Google Play Store" depending
-on audience tier. See voice/voice_constraints.md.
-
----
-
-## [store-link-apple] — Apple App Store URL
-Replaced with the Apple App Store URL from the product file.
-Renders as the full URL or as "Apple App Store" depending
-on audience tier. See voice/voice_constraints.md.
-
----
-
 ## ** ** — Bold
 Used for UI elements, button names, field labels, and critical 
 terms on first use. Example: Click **Save** to continue.
@@ -89,16 +75,16 @@ Text from the product file as a single linked element.
 Format: [Product Release URL Display Text](https://release-url)
 Both fields must exist in the product file. If either is missing, ask.
 
-## [store-link-google] — Google Play Store URL
-Replaced with the Google Play URL from the product file.
-Format: [Google Play Store](https://full-url-from-product-file)
-If the URL is missing from the product file, ask before proceeding.
-
-## [store-link-apple] — Apple App Store URL
-Replaced with the Apple App Store URL from the product file.
-Format: [Apple App Store](https://full-url-from-product-file)
-If the URL is missing from the product file, ask before proceeding.
-
+## [store-link-google] — Google Play Store URL  
+Replaced with the Google Play URL from the product file.  
+Format: [Google Play Store](https://full-url-from-product-file)  
+If the URL is missing from the product file, ask before proceeding.  
+  
+## [store-link-apple] — Apple App Store URL  
+Replaced with the Apple App Store URL from the product file.  
+Format: [Apple App Store](https://full-url-from-product-file)  
+If the URL is missing from the product file, ask before proceeding.  
+  
 ---
 
 ## General Rules
