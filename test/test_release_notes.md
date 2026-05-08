@@ -14,11 +14,11 @@ not GitHub rendering. -->
 [ul][li] Updated item  
 [h2] Fixes and Improvements[/h2][br]  
 [ul][li] Fixed item  
-[body] Questions? [support link][/body][br]  
+[body] Questions? [support-url][/body][br]  
 [br][br][br]  
 [footer]  
-This release note documents version [x.x.x] as of [release date]. [br]  
+This release note documents version [Version] as of [release date]. [br]  
 App store listings reflect the current version at the time of access 
 and may differ from the version described here. For the latest 
-release information, visit [product release page link].[br]  
+release information, visit [release-url].[br]  
 [/footer]
