@@ -33,10 +33,10 @@ https://apps.apple.com/app/My_Kind_of_Chaos
 - iOS 15 or newer  
 
 ## Support URL  
-support.ItsakindofChaos.com/MyKindofChaos  
+https://support.ItsakindofChaos.com/MyKindofChaos  
 
 ## Product Release URL  
-releases.ItsakindofChaos.com/MyKindofChaos  
+https://releases.ItsakindofChaos.com/MyKindofChaos  
 
 ## Notes  
 Additional notes go here  
