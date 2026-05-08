@@ -114,6 +114,21 @@ Do not generate the document until explicit confirmation is received.
 
 ---
 
+## [os-android] — Android OS Version
+Pulls the Android OS version string from the Supported OS section of the product file.
+Format: exactly as written in the product file.
+If missing, ask before proceeding.
+
+---
+
+## [os-ios] — iOS Version
+Pulls the iOS version string from the Supported OS section of the product file.
+Format: exactly as written in the product file.
+If missing, ask before proceeding.
+
+---
+
+
 ## General Rules
 
 - Tags are instructions to the AI, not to a browser.
