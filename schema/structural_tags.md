@@ -85,6 +85,15 @@ Both fields must exist in the product file. If either is missing, ask.
 
 ---
 
+## [release-url] — Release Notes Archive Link
+Renders the Product Release URL and Product Release URL Display 
+Text from the product file as a single linked element.
+Format: [Product Release URL Display Text](https://release-url)
+Both fields must exist in the product file. If either is missing, ask.
+
+---
+
+
 ## General Rules
 
 - Tags are instructions to the AI, not to a browser.
