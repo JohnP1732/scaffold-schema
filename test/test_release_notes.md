@@ -31,7 +31,7 @@ not GitHub rendering. -->
 [br][br][br]  
 
 [footer]  
-This release note documents version [x.x.x] as of [release date]. [br]  
+This release note documents version [version] as of [release date]. [br]  
 
 App store listings reflect the current version at the time of access 
 and may differ from the version described here. For the latest 
