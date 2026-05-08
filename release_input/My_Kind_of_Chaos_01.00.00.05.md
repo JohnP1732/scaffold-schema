@@ -3,6 +3,8 @@
 My Kind of Chaos  
 ## Version  
 01.00.00.05  
+## Release Date  
+April 2026  
 ## What's New  
 - The whole app is new...  
 
