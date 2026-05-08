@@ -30,5 +30,14 @@ support.ItsakindofChaos.com/MyKindofChaos
 ## Product Release URL  
 releases.ItsakindofChaos.com/MyKindofChaos  
 
+## About URL
+https://about.ItsakindofChaos.com/MyKindofChaos
+
+## Supported Languages
+- English
+- King James English
+- Cajun
+- Klingon
+
 ## Notes  
 Additional notes go here  
