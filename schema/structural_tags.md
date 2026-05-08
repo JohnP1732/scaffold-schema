@@ -102,14 +102,13 @@ The About URL must exist in the product file. If missing, ask.
 ---
 
 ## [release-date] — Release Date
-The date this version was released to the app stores.
+The date the version was released to the app stores.
 Pulled from the Release Date field in the release input file.
 Required field. If it is missing from the release input file, please ask before proceeding.
 
 Validation rule: Compare against the Release Date in the product file.
 If the release input date is newer than the product file date, stop.
-Flag the discrepancy to the user and wait for confirmation that
-the product file has been updated before proceeding.
+Flag the discrepancy to the user and wait for confirmation that the product file has been updated before proceeding.
 Do not generate the document until explicit confirmation is received.
 
 ---
@@ -125,6 +124,21 @@ If missing, ask before proceeding.
 Pulls the iOS version string from the Supported OS section of the product file.
 Format: exactly as written in the product file.
 If missing, ask before proceeding.
+
+---
+
+## [about-url] — About Page Link
+Renders the About URL from the product file as a linked element.
+Display text is pulled from Product Name in the product file.
+Format: [Product Name](https://about-url)
+The About URL must exist in the product file. If missing, ask.
+
+---
+
+## [language-list] — Supported Languages List
+Pulls the Supported Languages section from the product file.
+Renders as a [ul] list with one [li] per language.
+If missing from product file, ask before proceeding.
 
 ---
 
