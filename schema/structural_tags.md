@@ -93,6 +93,14 @@ If the URL is missing from the product file, ask before proceeding.
   
 ---
 
+## [about-url] — About Page Link
+Renders the About URL and About URL Display Text from the 
+product file as a single linked element.
+Format: [About URL Display Text](https://about-url)
+Both fields must exist in the product file. If either is missing, ask.
+
+---
+
 ## [release-date] — Release Date
 The date this version was released to the app stores.
 Pulled from the Release Date field in the release input file.
