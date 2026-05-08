@@ -8,16 +8,16 @@
 
 Scaffold is a structured content schema for AI-assisted technical documentation.
 
-It is a collection of plain text .md files that tell an AI:
+It is a collection of plain-text .md files that tell an AI:
 - What kind of document it is making
 - Who is supposed to read it
-- How that reader expects to experience the content
+- How the reader expects to experience the content
 - What words and phrases to use — and which to avoid
 - What the finished document should look like before a single word is written
 
-It is platform agnostic. It works on free tier AI tools. It lives in a folder. No SaaS, no login, no black box.
+It is platform agnostic. It works on free-tier AI tools. It lives in a folder. No SaaS, no login, no black box.
 
-GitHub repo: github.com/[username]/scaffold-schema
+GitHub repo: https://github.com/JohnP1732/scaffold-schema
 
 ---
 
@@ -80,11 +80,11 @@ GitHub repo: github.com/[username]/scaffold-schema
 **Run 1:** My Kind of Chaos
 - Product name pulled correctly throughout
 - about-url rendered with Product Name as display text
-- OS versions pulled from product file exactly as written
-- Store links rendering correctly in table
+- OS versions pulled from the product file exactly as written
+- Store links are rendering correctly in the table
 - language-list rendered as separate list items
 - No footer — correct, wireframe doesn't include one
-- Governance working as intended
+- Governance is working as intended
 
 ---
 
@@ -94,18 +94,18 @@ GitHub repo: github.com/[username]/scaffold-schema
 - `[about-url]` may still have a duplicate entry — verify and remove if present
 - Display text simplification pending: support-url, release-url display text fields 
   could default to Product Name instead of requiring separate display text fields.
-  Deferred — fix after publishing layer is built.
+  Deferred — fix after publishing the layer is built.
 
 **Product file:**
 - Support URL Display Text and Product Release URL Display Text fields exist
-  but may be simplified later to use Product Name as default.
+  But it may be simplified later to use Product Name as the default.
 
 **Release input files:**
-- Both need Release Date field added and validated against product file date.
+- Both need the Release Date field added and validated against the product file date.
   `My_Kind_of_Chaos_01.00.00.05.md` — Release Date: April 2026
   `My_Kind_of_Chaos_01.00.00.10.md` — Release Date: May 2026
-  May 2026 is newer than product file date — validation rule should flag this.
-  Test this before moving to publishing layer.
+  May 2026 is newer than the product file date — validation rule should flag this.
+  Test this before moving to the publishing layer.
 
 ---
 
@@ -115,8 +115,7 @@ GitHub repo: github.com/[username]/scaffold-schema
 
 This is the next major component. Not started yet.
 
-The concept: after go/no-go approval, Claude strips Scaffold tags from the 
-generated output and formats it for the target publishing platform.
+The concept: after go/no-go approval, Claude strips Scaffold tags from the generated output and formats it for the target publishing platform.
 
 Two new fields needed in product_collection.md:
 ```markdown
@@ -146,14 +145,14 @@ Publishing Notes flag behavior:
 ### Priority 2 — Stub files that need content
 
 In order:
-1. `voice/audience_tiers.md` — five tier definitions, full detail
+1. `voice/audience_tiers.md` — five-tier definitions, full detail
 2. `HOW_NOT_TO_AI.md` — voice constraints by tier and field type
 3. `voice/voice_constraints.md` — field-level rules
 4. `data/compatibility_data.md` — structure definition
 
 ### Priority 3 — Test files
 
-Once publishing layer exists:
+Once a publishing layer exists:
 - `test/test_compatibility_matrix.md` — full end-to-end output
 - `test/test_release_notes.md` — full end-to-end output
 
@@ -284,7 +283,7 @@ John Prill. Senior Technical Writer. Cypress TX.
 10+ years of documentation experience across SaaS, enterprise, and infrastructure.
 Currently available — contract or full-time.
 LinkedIn: linkedin.com/in/johnprill
-GitHub: github.com/[username]/scaffold-schema
+GitHub: github.com/JohnP1732/scaffold-schema
 
 ADHD pattern recognition in the brain. Builds systems while solving smaller problems.
 Scaffold started as a demo explanation for a job interview.
