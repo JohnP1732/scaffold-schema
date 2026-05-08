@@ -4,11 +4,11 @@
 My Kind of Chaos  
 
 ## Publisher  
-It a kind of Chaos  
+It's a kind of Chaos  
 
 ## About  
-It's not just another organization tool for people with ADHD, it's YOUR organization tool for YOUR ADHD.
-Typed Notes? Done? Writing a note on paper? Take a pic. Need a voice note? Record one? Need 17 alarms plus a friend's call AND a note to remind you to show up at a certain time and date? Done.
+It's not just another organization tool for people with ADHD; it's YOUR organization tool for YOUR ADHD.
+Typed Notes? Done? Writing a note on paper? Take a pic. Need a voice note? Record one? Need 17 alarms, a friend's call, AND a note to remind you to show up at a certain time and date? Done.
 
 ## Current Version  
 1.0.0.5  
@@ -43,6 +43,9 @@ https://releases.ItsakindofChaos.com/MyKindofChaos
 
 ## Product Release URL Display Text
 Release Notes Archive
+
+## About URL
+https://about.ItsakindofChaos.com/MyKindofChaos
 
 ## Notes  
 Additional notes go here  
