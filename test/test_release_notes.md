@@ -2,7 +2,7 @@
 Formatting is intentional and designed for AI reading, 
 not GitHub rendering. -->
 
-[h1] [Product Name] + [Version][/h1][br]  
+[h1] [Product Name] + [Version] Release Notes [/h1][br]  
 
 [body] Published: [publish-date][/body][br]  
 
