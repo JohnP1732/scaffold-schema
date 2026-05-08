@@ -35,8 +35,14 @@ https://apps.apple.com/app/My_Kind_of_Chaos
 ## Support URL  
 https://support.ItsakindofChaos.com/MyKindofChaos  
 
+## Support URL Display Text
+Support Page
+
 ## Product Release URL  
 https://releases.ItsakindofChaos.com/MyKindofChaos  
+
+## Product Release URL Display Text
+Release Notes Archive
 
 ## Notes  
 Additional notes go here  
