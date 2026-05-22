@@ -30,8 +30,34 @@ This applies to:
 Validation rule: If any version number in any source file does not match 
 the 00.00.00.00 pattern exactly, stop and flag before generating.
 
-Release date validation: Compare the Release Date in the release input file against the Release Date in the product file. If the release input date is newer, flag the discrepancy and stop. 
-Do not generate the document until the user confirms the product file has been updated manually. Wait for explicit confirmation before proceeding.
+## Release Date Validation
+
+Release date validation:
+The release input file stores the full date  (Month DD, YYYY — example: May 22, 2026).
+The product file stores only the month and year (Month YYYY — example: May 2026).
+
+Validation compares only the month and year. Day is ignored.
+
+Rule: Any mismatch between the release input date and the product file date 
+stops generation. Do not proceed until the user explicitly confirms 
+the discrepancy has been resolved.
+
+If the release input is newer than the product file:
+Flag — "Release input date is newer than product file. The product file 
+may not have been updated. Confirm product file is current before 
+proceeding."
+
+If the release input is older than the product file:
+Flag — "Release input date is older than product file. An undocumented 
+release may exist. Confirm all releases are documented before proceeding."
+
+If the month and year match, proceed without flagging.
+
+Examples:
+- Release input: May 22, 2026 / Product file: May 2026 — match, proceed
+- Release input: May 22, 2026 / Product file: April 2026 — newer, flag, and stop
+- Release input: April 15, 2026 / Product file: May 2026 — older, flag, and stop
+
 
 OS Support Policy: Unless otherwise specified, supported OS versions default to the current release and two versions back for consumer apps, three versions back for enterprise tools.
 Confirm with the product owner before documenting.
