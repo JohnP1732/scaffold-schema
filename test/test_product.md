@@ -11,16 +11,16 @@ It's not just another organization tool for people with ADHD; it's YOUR organiza
 Typed Notes? Done? Writing a note on paper? Take a pic. Need a voice note? Record one? Need 17 alarms, a friend's call, AND a note to remind you to show up at a certain time and date? Done.
 
 ## Current Version  
-1.0.0.5  
+01.00.00.13  
 
 ## Release Version  
-1.0.0.5  
+01.00.00.13  
 
 ## Release Name  
 OhItsLiveNowIsntIt  
 
 ## Release Date  
-April 2026  
+May 2026  
 
 ## Google Play  
 https://play.google.com/store/apps/details?id=My_Kind_of_Chaos  
