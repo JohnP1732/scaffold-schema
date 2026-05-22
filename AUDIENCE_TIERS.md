@@ -49,6 +49,11 @@ My Kind of Chaos release notes and compatibility matrix are not
 written for Tier 1. The Advocate section of the About content 
 (test_product.md) approaches Tier 1 language at its opening line.
 
+Tier 1 document generation requires a metrics file. 
+See data/metrics/[ProductName]_metrics_[YYYY_MM].md for 
+current period data. Monthly files roll up to quarterly 
+on request, based on company's fiscal calendar.
+
 ---
 
 ## Tier 2 — Manager (Team Lead, Director, Program Manager)
@@ -93,6 +98,11 @@ what it means for their team.
 My Kind of Chaos About — Advocate section (test_product.md) is 
 written at Tier 2 voice. Release notes versions 01.00.00.05 and 
 01.00.00.10 touch Tier 2 in the Fixes and Improvements section.
+
+Tier 2 documents may reference metrics data for rollout 
+and impact context. See data/metrics/[ProductName]_metrics_[YYYY_MM].md. 
+Static fields (subscription tiers, support model) live in 
+the product file.
 
 ---
 
