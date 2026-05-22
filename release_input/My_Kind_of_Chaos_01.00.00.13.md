@@ -9,7 +9,7 @@ May 22, 2026
 Month and year only  
 ## What's New
 - Added checklist history and review
-- Checklists are not copyable
+- Checklists are now copyable and reusable
 
 ## Fixes and Improvements
 - just some background cleanup and minor items. Nothing to mention, so it isn't fixated on.
