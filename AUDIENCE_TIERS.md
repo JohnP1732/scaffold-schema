@@ -9,50 +9,14 @@ Tier 5, it doesn't work anywhere.
 
 ## Tier 1 — Executive (CEO, C-Suite, Board)
 
-### Who they are
-Decision makers with no time and high stakes. They are not reading 
-your document. They are scanning it for one thing: does this matter 
-to me, and what do I do about it.
+Out of scope for Scaffold.
 
-### What they are trying to accomplish
-Confirm that something is worth their attention. Understand the 
-outcome or impact without needing to understand the mechanism.
+Scaffold generates documents for Tiers 2 through 5 — people who 
+use, support, build, and manage the product. Tier 1 executive 
+briefings and business intelligence reporting fall outside that 
+scope.
 
-### What they will tolerate
-- A single clear statement of impact
-- One or two supporting facts if they are numbers
-- A direct ask or next step if one exists
-
-### What they will not tolerate
-- Steps, instructions, or process detail
-- Jargon, acronyms, or technical terms without immediate plain-language 
-  translation
-- Anything that requires them to already know something to understand it
-- Documents longer than they need to be
-
-### Words and phrases that work
-- Revenue, risk, customers, growth, outcome, decision, impact
-- Numbers with context ("3% drop in retention" not "retention metrics")
-- Active voice, short sentences
-
-### Words and phrases that don't
-- "In order to," "utilize," "leverage" (as a verb), "synergy"
-- Version numbers, build numbers, patch notes
-- Any acronym not spelled out on first use
-
-### What a failed document looks like
-A Tier 1 reader puts it down after the first paragraph because 
-nothing in it told them why they should keep reading.
-
-### Reference
-My Kind of Chaos release notes and compatibility matrix are not 
-written for Tier 1. The Advocate section of the About content 
-(test_product.md) approaches Tier 1 language at its opening line.
-
-Tier 1 document generation requires a metrics file. 
-See data/metrics/[ProductName]_metrics_[YYYY_MM].md for 
-current period data. Monthly files roll up to quarterly 
-on request, based on company's fiscal calendar.
+Tier 1 is documented here solely for numbering continuity.
 
 ---
 
