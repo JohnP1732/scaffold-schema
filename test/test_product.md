@@ -71,7 +71,8 @@ How you use what's already in the app to move through your day.
 - Named alarms — the alarm tells you what it's for: "Leave NOW." "Take your meds." "Call Mom before 5."
 - Alarm stacking — layer multiple alarms into a sequence: "Leave in 30" → "Leave in 10" → "Leave NOW"
 - Contact-triggered reminders — an alarm and a note together: the alarm fires, the note tells you why
-- Reusable checklists — build a checklist once, use it as many times as needed
+- Reusable checklists — build a checklist once, run it as many times as needed
+- Copyable checklists — duplicate an existing checklist as a starting point for a new one
 - Checklist history — every run is recorded passively; no action required to keep it
 - Checklist review — optional; for people who want to examine what worked and what didn't
 
