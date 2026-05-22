@@ -94,14 +94,25 @@ If the URL is missing from the product file, ask before proceeding.
 ---
 
 ## [release-date] — Release Date
+Validation rules for release date comparison are defined in content_governance.md.
+
 The date the version was released to the app stores.
 Pulled from the Release Date field in the release input file.
-Required field. If it is missing from the release input file, please ask before proceeding.
+Required field. If missing from the release input file, ask before proceeding.
 
-Validation rule: Compare against the Release Date in the product file.
-If the release input date is newer than the product file date, stop.
-Flag the discrepancy to the user and wait for confirmation that the product file has been updated before proceeding.
-Do not generate the document until explicit confirmation is received.
+Format: Release input file stores full date (Month DD, YYYY).
+The product file stores the month and year only (Month YYYY).
+Validation compares only the month and year. Day is ignored.
+
+If the release input date is newer than the product file date:
+Flag and stop. Do not generate until the user confirms the product file 
+has been updated manually.
+
+If the release input date is older than the product file date:
+Flag and stop. Do not generate until the user confirms all releases 
+are documented.
+
+If the month and year match: proceed.
 
 ---
 
