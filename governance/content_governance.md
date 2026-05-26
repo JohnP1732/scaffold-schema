@@ -62,3 +62,29 @@ Examples:
 OS Support Policy: Unless otherwise specified, supported OS versions default to the current release and two versions back for consumer apps, three versions back for enterprise tools.
 Confirm with the product owner before documenting.
 
+## File Naming Convention
+
+All Scaffold files follow a product-first naming standard.
+
+Format: [ProductName]_[DocType]_[Version or Period].md
+
+Document type identifiers:
+- RelNote — Release notes
+- CompatMatrix — Compatibility matrix
+- Metrics — Monthly metrics file
+- About — About page content
+
+Examples:
+- My_Kind_of_Chaos_RelNote_01.00.00.13.md
+- My_Kind_of_Chaos_CompatMatrix_01.00.00.13.md
+- My_Kind_of_Chaos_Metrics_2026_05.md
+- My_Kind_of_Chaos_About.md
+
+Rules:
+- Product name matches exactly as written in the product file,
+  spaces replaced with underscores
+- Document type identifier is always the second segment
+- Version numbers follow the 00.00.00.00 standard
+- Metrics files use YYYY_MM for the period segment, no version number
+- New document types get a short identifier defined here before
+  the first file is created
