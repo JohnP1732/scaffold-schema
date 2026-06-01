@@ -2,6 +2,14 @@
 ## Minimum viable schema for AI document generation.
 ## Full tag library expanded as new document types are added.
 
+## Scope Note
+This file serves two tools:
+- ReadyText for AI — input-side tags applied during content 
+  creation and editing
+- Scaffold — full tag schema for document generation
+
+Both tools reference this file. Do not split without updating both.
+
 ---
 
 ## [h1] — Document Title
