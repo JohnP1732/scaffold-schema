@@ -1,0 +1,44 @@
+site_name: Scaffold
+site_description: A structured content schema for AI-assisted technical documentation
+site_author: John Prill
+repo_url: https://github.com/JohnP1732/scaffold-schema
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+  palette:
+    - scheme: default
+      toggle: { icon: material/weather-night, name: Dark mode }
+    - scheme: slate
+      toggle: { icon: material/weather-sunny, name: Light mode }
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Schema:
+      - Structural tags: schema/structural_tags.md
+  - Voice:
+      - Audience tiers: AUDIENCE_TIERS.md
+      - Voice constraints: voice/voice_constraints.md
+  - Wireframes:
+      - Release notes: wireframes/release_notes.md
+      - Compatibility matrix: wireframes/compatibility_matrix.md
+  - Governance:
+      - Governance: governance/governance.md
+      - Content governance: governance/content_governance.md
+  - Data:
+      - Product collection: data/product_collection.md
+      - Compatibility data: data/compatibility_data.md
+  - Examples:
+      - Release note input template: release_input/ProductName_Version.md
+      - "Release note 01.00.00.13": release_input/My_Kind_of_Chaos_RelNote_01.00.00.13.md
+      - Test - release notes: test/test_release_notes.md
+      - Test - compatibility matrix: test/test_compatibility_matrix.md
