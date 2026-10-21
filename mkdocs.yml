@@ -26,7 +26,7 @@ nav:
   - Schema:
       - Structural tags: schema/structural_tags.md
   - Voice:
-      - Audience tiers: AUDIENCE_TIERS.md
+      - Audience tiers: voice/audience_tiers.md
       - Voice constraints: voice/voice_constraints.md
   - Wireframes:
       - Release notes: wireframes/release_notes.md
