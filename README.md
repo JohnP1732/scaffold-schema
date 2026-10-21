@@ -61,7 +61,7 @@ Before anything else, read these in order:
 
 1. **README.md** — this file. What the system is and why.
 2. **voice/audience_tiers.md** — the five audience levels every document must be assigned to before generation begins.
-3. **HOW_NOT_TO_AI.md** — the voice constraints. What AI reaches for by default, and what to use instead. Modulated by audience tier.
+3. **HOW_NOT_TO_AI.md** — the voice constraints. What AI defaults to, and what to use instead. Modulated by audience tier.
 4. **schema/structural_tags.md** — the tag schema. What each tag means, how to use it, and what it tells the AI.
 5. **wireframes/** — the document templates. One file per document type.
 
@@ -91,7 +91,7 @@ Full definitions are in AUDIENCE_TIERS.md. Brief version:
 │
 ├── README.md                         ← you are here
 ├── HOW_NOT_TO_AI.md                  ← voice constraints by tier
-├── AUDIENCE_TIERS.md                 ← full tier definitions
+├
 │
 ├── /schema
 │   └── structural_tags.md            ← the tag schema
@@ -170,10 +170,10 @@ That part does not change.
 | Component | Status |
 |-----------|--------|
 | README | ✅ First draft complete |
-| AUDIENCE_TIERS.md | 🔲 moved, Stub needed |
 | HOW_NOT_TO_AI.md | 🔲 Stub needed |
 | schema/structural_tags.md | 🔲 Stub needed |
 | voice/voice_constraints.md | 🔲 Stub needed |
+| voice/audience_tiers.md | 🔲 moved |
 | wireframes/compatibility_matrix.md | 🔲 Stub needed |
 | wireframes/release_notes.md | 🔲 Stub needed |
 | data/product_collection.md | 🔲 Stub needed |
