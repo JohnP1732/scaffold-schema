@@ -32,9 +32,8 @@ jobs:
         run: |
           mkdir -p docs
           cp README.md docs/index.md
-          cp AUDIENCE_TIERS.md docs/
           cp -r schema wireframes voice governance data release_input test docs/
-          rm -f docs/voice/audience_tiers.md
+
 
       - name: Build the site
         run: mkdocs build
