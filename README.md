@@ -70,7 +70,7 @@ Before anything else, read these in order:
 ## The five audience tiers
 
 Every document in this system is written for one of five audiences.
-Full definitions are in AUDIENCE_TIERS.md. Brief version:
+Full definitions are in voice/audience_tier.md. Brief version:
 
 | Tier | Audience | Plain description |
 |------|----------|-------------------|
@@ -91,7 +91,6 @@ Full definitions are in AUDIENCE_TIERS.md. Brief version:
 │
 ├── README.md                         ← you are here
 ├── HOW_NOT_TO_AI.md                  ← voice constraints by tier
-├
 │
 ├── /schema
 │   └── structural_tags.md            ← the tag schema
@@ -173,7 +172,7 @@ That part does not change.
 | HOW_NOT_TO_AI.md | 🔲 Stub needed |
 | schema/structural_tags.md | 🔲 Stub needed |
 | voice/voice_constraints.md | 🔲 Stub needed |
-| voice/audience_tiers.md | 🔲 moved |
+| voice/audience_tiers.md | ✅ Done  |
 | wireframes/compatibility_matrix.md | 🔲 Stub needed |
 | wireframes/release_notes.md | 🔲 Stub needed |
 | data/product_collection.md | 🔲 Stub needed |
